@@ -1,0 +1,7 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "HTML5 Standards"
+theme = "hugo-theme-learn"
+
+[Params]
+  Author = "Abhishek Jha || Niranjan T"
