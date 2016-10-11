@@ -25,11 +25,16 @@ The HTML <span class='tag-span'>&lt;summary&gt;</span> element tag is used along
 <h3>Advantages of this tag</h3>
 
 <ul>
+
   <li>Removed dependency on any javascript library to accomplish this behavior which bloats the page size for the user.</li>
 
   <li>Will get an accessibility bonus since now this behavior will be handled natively in the browser</li>
 
 </ul>
+
+{{% notice note %}}
+  People often use accordions for FAQs anyway, so they’re a great candidate for <span class='tag-span'>&lt;details&gt;</span>/<span class='tag-span'>&lt;summary&gt;</span>.
+{{% /notice %}}
 
 <h3>Working Example</h3>
 
@@ -47,7 +52,7 @@ The HTML <span class='tag-span'>&lt;summary&gt;</span> element tag is used along
 
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary)
 <br>
-[HTML5Doctor](http://html5doctor.com/summary-figcaption-element/)
+[HTML5Doctor](http://html5doctor.com/the-details-and-summary-elements/)
 
 <h3>Point of Contact</h3>
 Abhishek Jha
