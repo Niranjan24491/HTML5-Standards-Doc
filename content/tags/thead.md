@@ -8,11 +8,11 @@ weight = 5
 
 +++
 
-The <span class='tag-span'>&lt;thead&gt;</span> tag is used to group the header content in an HTML table. The <span class='tag-span'>&lt;thead&gt;</span> element should be used in conjunction with the <span class='tag-span'>&lt;tbody&gt;</span> and <span class='tag-span'>&lt;tfoot&gt;</span> elements.
+The <span class='tag-span'>&lt;thead&gt;</span> tag is used to group the header content in an HTML table. The <span class='tag-span'>&lt;thead&gt;</span> element should be used in conjunction with the <span class='tag-span'>&lt;tbody&gt;</span> and <span class='tag-span'>&lt;tfoot&gt;</span> elements to specify each part of a table (header, footer,  body).
 
 <h3>Need for this tag</h3>
 
-<p>The <span class='tag-span'>&lt;thead&gt;</span> element can encapsulate an entire row (or rows) to designate them as the Table Header.
+<p>The <span class='tag-span'>&lt;thead&gt;</span> element can encapsulate an entire row (or rows) to designate them as the Table Header.</p>
 
 <h3>Advantages of this tag</h3>
 
@@ -39,21 +39,33 @@ The <span class='tag-span'>&lt;thead&gt;</span> tag is used to group the header 
     <table>
       <thead>
         <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
+          <th>Month</th>
+          <th>Expense</th>
+          <th>Savings</th>
         </tr>
       </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>Rs.18000</td>
+          <td>Rs.8000</td>
+        </tr>
+      </tfoot>
       <tbody>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>30</td>
+          <td>January</td>
+          <td>Rs.6000</td>
+          <td>Rs.2000</td>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>34</td>
+          <td>February</td>
+          <td>Rs.5000</td>
+          <td>Rs.3000</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>Rs.5000</td>
+          <td>Rs.3000</td>
         </tr>
       </tbody>
     </table>
@@ -61,21 +73,33 @@ The <span class='tag-span'>&lt;thead&gt;</span> tag is used to group the header 
 <table>
   <thead>
     <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-      <th>Age</th>
+      <th>Month</th>
+      <th>Expense</th>
+      <th>Savings</th>
     </tr>
   </thead>
+  <tfoot>
+    <tr>
+      <th>Sum</th>
+      <td>Rs.16000</td>
+      <td>Rs.8000</td>
+    </tr>
+  </tfoot>
   <tbody>
     <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-      <td>30</td>
+      <td>January</td>
+      <td>Rs.6000</td>
+      <td>Rs.2000</td>
     </tr>
     <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
-      <td>34</td>
+      <td>February</td>
+      <td>Rs.5000</td>
+      <td>Rs.3000</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>Rs.5000</td>
+      <td>Rs.3000</td>
     </tr>
   </tbody>
 </table>

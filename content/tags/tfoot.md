@@ -8,10 +8,11 @@ weight = 5
 
 +++
 
-<h3>Standard Definition</h3>
+The <span class='tag-span'>&lt;tfoot&gt;</span> tag is used to group the footer content in an HTML table. The <span class='tag-span'>&lt;tfoot&gt;</span> element should be used in conjunction with the <span class='tag-span'>&lt;tbody&gt;</span> and <span class='tag-span'>&lt;thead&gt;</span> elements to specify each part of a table (header, footer, body).
 
 <h3>Need for this tag</h3>
 
+<p>The <span class='tag-span'>&lt;tfoot&gt;</span> element can encapsulate an entire row (or rows) to designate them as the Table Footer.</p>
 
 <h3>Advantages of this tag</h3>
 
@@ -29,12 +30,8 @@ weight = 5
 
 </ul>
 
-{{% notice note %}}
-  You can actually code <span class='tag-span'>&lt;thead&gt;</span>, <span class='tag-span'> &lt;tfoot&gt;</span>, <span class='tag-span'>&lt;tbody&gt;</span> out of order and they will appear in the right place on the table. While obscure, this is one of advantage of table related semantics tag.
-{{% /notice %}}
-
 {{% notice tip %}}
-  Since order of <span class='tag-span'>&lt;thead&gt;</span>, <span class='tag-span'> &lt;tfoot&gt;</span>, <span class='tag-span'>&lt;tbody&gt;</span> doesn't matter, the idea of putting <span class='tag-span'>&lt;tfoot&gt;</span> before
+  You can actually code <span class='tag-span'>&lt;thead&gt;</span>, <span class='tag-span'> &lt;tfoot&gt;</span>, <span class='tag-span'>&lt;tbody&gt;</span> out of order and they will appear in the right place on the table. Since order of <span class='tag-span'>&lt;thead&gt;</span>, <span class='tag-span'> &lt;tfoot&gt;</span>, <span class='tag-span'>&lt;tbody&gt;</span> doesn't matter, the idea of putting <span class='tag-span'>&lt;tfoot&gt;</span> before
   <span class='tag-span'>&lt;tbody&gt;</span> is encouraged so that summary (footer) information can be rendered while a large data table is still downloading
 {{% /notice %}}
 
@@ -43,25 +40,76 @@ weight = 5
     <table>
       <thead>
         <tr>
-          <th>Season</th>
-          <th>Goals</th>
-          <th>Assists</th>
+          <th>Month</th>
+          <th>Expense</th>
+          <th>Savings</th>
         </tr>
       </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>Rs.18000</td>
+          <td>Rs.8000</td>
+        </tr>
+      </tfoot>
       <tbody>
         <tr>
-          <th>2009-2010</th>
-          <td>25</td>
-          <td>43</td>
+          <td>January</td>
+          <td>Rs.6000</td>
+          <td>Rs.2000</td>
         </tr>
         <tr>
-          <th>2011-2012</th>
-          <td>40</td>
-          <td>20</td>
+          <td>February</td>
+          <td>Rs.5000</td>
+          <td>Rs.3000</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>Rs.5000</td>
+          <td>Rs.3000</td>
         </tr>
       </tbody>
     </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Expense</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <th>Sum</th>
+      <td>Rs.16000</td>
+      <td>Rs.8000</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>Rs.6000</td>
+      <td>Rs.2000</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>Rs.5000</td>
+      <td>Rs.3000</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>Rs.5000</td>
+      <td>Rs.3000</td>
+    </tr>
+  </tbody>
+</table>
+
 <h3>References</h3>
 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)
+<br>
+[HTMLHELP](http://htmlhelp.com/reference/html40/tables/tfoot.html)
+
 <h3>Point of Contact</h3>
+Abhishek Jha
