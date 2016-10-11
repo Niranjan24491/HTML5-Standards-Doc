@@ -28,8 +28,6 @@ The <span class='tag-span'>&lt;thead&gt;</span> tag is used to group the header 
 
   <li> When long tables are printed, the table head and foot information may be repeated on each page that contains table data.</li>
 
-  <li>To allow the body to be scrolled independently of the header and/or footer</li>
-
 </ul>
 
 {{% notice note %}}
