@@ -8,13 +8,13 @@ weight = 5
 
 +++
 
-The HTML <abbr> tag is used for indicating an abbreviation.
-This tag is often used in conjunction with the global title attribute in order to provide an expansion of the abbreviation. When this attribute is specified, it should only contain an expansion of the abbreviation and nothing else.
+The HTML <span class='tag-span'>&lt;abbr&gt;</span> element represents an abbreviation or acronym, optionally with its expansion. This tag is often used in conjunction with the global title attribute in order to provide an expansion of the abbreviation. When this attribute is specified, it should only contain an expansion of the abbreviation and nothing else.
 
 <h3>Need for this tag</h3>
-The abbr element represents an abbreviation or acronym, optionally with its expansion. The title attribute may be used to provide an expansion of the abbreviation. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else.
+The HTML <span class='tag-span'>&lt;abbr&gt;</span> element is used for indicating an abbreviation. The title attribute may be used to provide an expansion of the abbreviation.
 
 <h3>Advantages of this tag</h3>
+
 <ol>
   <li>Will help in Search Engine Optimization(SEO) by following the HTML standards</li>
   <li>Provides semantic meaning to the HTML page</li>
@@ -24,7 +24,10 @@ The abbr element represents an abbreviation or acronym, optionally with its expa
 
     <p>The
     <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
-    started working on HTML5 in 2004.</p>
+    started working on HTML5 in 2004.
+    </p>
+
+<p>The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> started working on HTML5 in 2004.</p>
 
 <h3>References</h3>
 https://www.w3.org/TR/html5/text-level-semantics.html#the-abbr-element
