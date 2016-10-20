@@ -4,7 +4,7 @@ next = "/tags/comments"
 prev = "/tags/abbreviation"
 title = "abbreviation"
 toc = true
-weight = 5
+weight = 1
 
 +++
 
@@ -22,9 +22,7 @@ The HTML <span class='tag-span'>&lt;abbr&gt;</span> element is used for indicati
 
 <h3>Working Example</h3>
 
-    <p>The
-    <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
-    started working on HTML5 in 2004.
+    <p>The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> started working on HTML5 in 2004.
     </p>
 
 <p>The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> started working on HTML5 in 2004.</p>

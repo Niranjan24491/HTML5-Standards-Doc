@@ -4,18 +4,18 @@ next = "/tags/comments"
 prev = "/tags/abbreviation"
 title = "address"
 toc = true
-weight = 5
+weight = 2
 
 +++
 
-The HTML <span class='tag-span'>&lt;address&gt;</span> tag is used for indicating an address, usually related to authorship of the current document, or a section of the document. If the tag applies to the body element, then it applies to the document as a whole.
+The HTML <span class='tag-span'>&lt;address&gt;</span> element is used for indicating an address, usually related to authorship of the current document, or a section of the document. If the tag applies to the body element, then it applies to the document as a whole.
 
 <h3>Need for this tag</h3>
 
 The <span class='tag-span'>&lt;address&gt;</span> is used to indicate authorship of document.
 
 {{% notice note %}}
-  The <span class='tag-span'>&lt;address&gt;</span> tag must not be used to represent arbitrary addresses (e.g. postal addresses), unless those addresses are contact information for the section. To display postal addresses, simply use the <span class='tag-span'>&lt;p&gt;</span> tag. Typically an <span class='tag-span'>&lt;address&gt;</span> element can be placed inside the <span class='tag-span'>&lt;footer&gt;</span> element of the current section, if any.
+  The <span class='tag-span'>&lt;address&gt;</span> element must not be used to represent arbitrary addresses (e.g. postal addresses), unless those addresses are contact information for the section. To display postal addresses, simply use the <span class='tag-span'>&lt;p&gt;</span> element. Typically an <span class='tag-span'>&lt;address&gt;</span> element can be placed inside the <span class='tag-span'>&lt;footer&gt;</span> element of the current section, if any.
 {{% /notice %}}
 
 {{% notice tip %}}
@@ -23,7 +23,7 @@ The <span class='tag-span'>&lt;address&gt;</span> is used to indicate authorship
 {{% /notice %}}
 
 <h3>Disadvantages of this tag</h3>
-The <span class='tag-span'>&lt;address&gt;</span> tag cannot contain
+The <span class='tag-span'>&lt;address&gt;</span> element cannot contain
 <span class='tag-span'>&lt;article&gt;</span>, <span class='tag-span'>&lt;aside&gt;</span>
 <span class='tag-span'>&lt;nav&gt;</span>, <span class='tag-span'>&lt;section&gt;</span>
 <span class='tag-span'>&lt;header&gt;</span>, <span class='tag-span'>&lt;footer&gt;</span>
