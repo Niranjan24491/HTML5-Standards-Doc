@@ -4,18 +4,18 @@ next = "/tags/nav"
 prev = "/tags/header"
 title = "aside"
 toc = true
-weight = 5
+weight = 6
 
 +++
 
-The HTML <aside> element represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content.
+The HTML <span class='tag-span'>&lt;aside&gt;</span> element represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content.
 
 <h3>Need for this tag</h3>
-These sections are often represented as sidebars or inserts. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements.
+The sections represented by <span class='tag-span'>&lt;aside&gt;</span> element are often sidebars. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements.
 
 <h3>Disadvantages of this tag</h3>
 <ul>
-  <li>It's not appropriate to use the aside element just for parentheticals, since those are part of the main flow of the document.</li>
+  <li>It's not appropriate to use the <span class='tag-span'>&lt;aside&gt;</span> element just for parentheticals, since those are part of the main flow of the document.</li>
 </ul>
 
 <h3>Advantages of this tag</h3>
@@ -39,12 +39,15 @@ These sections are often represented as sidebars or inserts. They often contain 
       </p>
     </article>
 
+
 <h3>References</h3>
-https://developer.mozilla.org/en/docs/Web/HTML/Element/aside
+
+[MDN](https://developer.mozilla.org/en/docs/Web/HTML/Element/aside)
 <br>
-https://www.w3.org/TR/html5/sections.html#the-aside-element
+[W3](https://www.w3.org/TR/html5/sections.html#the-aside-element)
 
 <h3>Point of Contact</h3>
+
 Niranjan Thrineshwar <br>
 nthrineshwar@deloitte.com <br>
 9663770742
