@@ -8,14 +8,12 @@ weight = 5
 
 +++
 
-The HTML <base> element specifies the base URL to use for all relative URLs contained within a document. There can be only one <base> element in a document.
-
-<h3>Need for this tag</h3>
+The HTML <span class='tag-span'>&lt;base&gt;</span> element specifies the base URL to use for all relative URLs contained within a document. There can be only one <span class='tag-span'>&lt;base&gt;</span> element in a document.
 
 <h3>Disadvantages of this tag</h3>
 <ul>
-  <li>There must be no more than one base element per document.</li>
-  <li>If multiple <base> elements are specified, only the first href and first target value are used; all others are ignored.</li>
+  <li>There cannot be more than one <span class='tag-span'>&lt;base&gt;</span> element per document.</li>
+  <li>If multiple <span class='tag-span'>&lt;base&gt;</span> elements are specified, only the first href and first target value are used; all others are ignored.</li>
 </ul>
 
 <h3>Advantages of this tag</h3>
@@ -38,9 +36,9 @@ The HTML <base> element specifies the base URL to use for all relative URLs cont
     </html>
 
 <h3>References</h3>
-https://developer.mozilla.org/en/docs/Web/HTML/Element/base
+[MDN](https://developer.mozilla.org/en/docs/Web/HTML/Element/base)
 <br>
-https://www.w3.org/TR/html5/document-metadata#the-base-element
+[W3](https://www.w3.org/TR/html5/document-metadata#the-base-element)
 
 <h3>Point of Contact</h3>
 Niranjan Thrineshwar <br>
