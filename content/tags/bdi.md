@@ -8,10 +8,10 @@ weight = 5
 
 +++
 
-The HTML <bdi> Element (or Bi-Directional Isolation Element) isolates a span of text that might be formatted in a different direction from other text outside it.
+The HTML <span class='tag-span'>&lt;bdi&gt;</span> Element (or Bi-Directional Isolation Element) isolates a span of text that might be formatted in a different direction from other text outside it.
 
 <h3>Need for this tag</h3>
-This element is useful when embedding text with an unknown directionality, from a database for example, inside text with a fixed directionality.
+The <span class='tag-span'>&lt;bdi&gt;</span> element is useful when embedding text with an unknown directionality, from a database for example, inside text with a fixed directionality.
 
 {{% notice note %}}
   Though the same visual effect can be achieved using the CSS rule unicode-bidi: isolate on a <span> or another text-formatting element, the semantic meaning is only conveyed by the <bdi> element. Especially, browsers are allowed to ignore CSS styling. In such a case, the text would still be correctly displayed using the HTML element, but will become garbage when using the CSS styling to convey semantic.
@@ -34,10 +34,19 @@ This element is useful when embedding text with an unknown directionality, from 
       <li>User <bdi>moe</bdi>: 2 posts</li>
     </ol>
 
+<p>And the top five contributors are:</p>
+<ol>
+  <li>User <bdi>homerjay</bdi>: 1601 posts</li>
+  <li>User <bdi>msimpson</bdi>: 335 posts</li>
+  <li>User <bdi>إيان</bdi>: 195 posts</li>
+  <li>User <bdi>barts</bdi>: 6 posts</li>
+  <li>User <bdi>moe</bdi>: 2 posts</li>
+</ol>
+
 <h3>References</h3>
-https://developer.mozilla.org/en/docs/Web/HTML/Element/bdi
+[MDN](https://developer.mozilla.org/en/docs/Web/HTML/Element/bdi)
 <br>
-http://www.quackit.com/html_5/tags/html_bdi_tag.cfm
+[Quackit](http://www.quackit.com/html_5/tags/html_bdi_tag.cfm)
 
 <h3>Point of Contact</h3>
 Niranjan Thrineshwar <br>
