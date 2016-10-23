@@ -8,15 +8,14 @@ weight = 5
 
 +++
 
-The HTML <bdo> Element (or HTML bidirectional override element) is used to override the current directionality of text. It causes the directionality of the characters to be ignored in favor of the specified directionality.
+The HTML <span class='tag-span'>&lt;bdo&gt;</span> Element (or HTML bidirectional override element) is used to override the current directionality of text. It causes the directionality of the characters to be ignored in favor of the specified directionality.
 
 <h3>Attributes</h3>
-This element includes the global attributes.
-
-dir
-  Text direction in this element. Possible values are:
-  ltr: Indicates that the text should go in a left-to-right direction.
-  rtl: Indicates that the text should go in a right-to-left direction.
+This element includes the global attributes "dir" which defines the text direction in the element. Possible values are:
+<ul>
+  <li>ltr: Indicates that the text should go in a left-to-right direction.</li>
+  <li>rtl: Indicates that the text should go in a right-to-left direction.</li>
+</ul>
 
 <h3>Advantages of this tag</h3>
 <ol>
@@ -26,20 +25,22 @@ dir
 
 <h3>Working Example</h3>
 
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>HTML bdo Tag</title>
-  </head>
-  <body>
-    <bdo dir="rtl">Here's some English embedded in text in another language requiring a right-to-left presentation.</bdo>
-  </body>
-  </html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>HTML bdo Tag</title>
+    </head>
+    <body>
+      <bdo dir="rtl">Here's some English embedded in text in another language requiring a right-to-left presentation.</bdo>
+    </body>
+    </html>
+
+<bdo dir="rtl">Here's some English embedded in text in another language requiring a right-to-left presentation.</bdo>
 
 <h3>References</h3>
-https://developer.mozilla.org/en/docs/Web/HTML/Element/bdo
+[MDN](https://developer.mozilla.org/en/docs/Web/HTML/Element/bdo)
 <br>
-https://www.tutorialspoint.com/html/html_bdo_tag.htm
+[TutorialPoint](https://www.tutorialspoint.com/html/html_bdo_tag.htm)
 
 <h3>Point of Contact</h3>
 Niranjan Thrineshwar <br>
